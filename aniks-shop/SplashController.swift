@@ -20,6 +20,17 @@ class SplashController: UIViewController {
         print("Timer ended")
         self.timer?.invalidate()
         
+        if let currentWindowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene{
+            
+            //SceneDelegate
+            if let sceneDelegate = currentWindowScene.delegate as? SceneDelegate,let window = sceneDelegate.window{
+//                print(window.rootViewController)
+                if let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.loginController) as? LoginController{
+                    window.rootViewController = loginViewController
+                }
+            }
+        }
+        
     }
     
    

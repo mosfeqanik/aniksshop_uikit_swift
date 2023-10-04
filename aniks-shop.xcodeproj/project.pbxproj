@@ -13,6 +13,8 @@
 		84653ED42AA89525004E80D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84653ED22AA89525004E80D7 /* Main.storyboard */; };
 		84653ED62AA89526004E80D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84653ED52AA89526004E80D7 /* Assets.xcassets */; };
 		84653ED92AA89526004E80D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84653ED72AA89526004E80D7 /* LaunchScreen.storyboard */; };
+		849780C62ACDC8E800482BA9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849780C52ACDC8E800482BA9 /* LoginController.swift */; };
+		849780C82ACDCC7800482BA9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849780C72ACDCC7800482BA9 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84653ED52AA89526004E80D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84653ED82AA89526004E80D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84653EDA2AA89526004E80D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849780C52ACDC8E800482BA9 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		849780C72ACDCC7800482BA9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		84653ECB2AA89525004E80D7 /* aniks-shop */ = {
 			isa = PBXGroup;
 			children = (
+				849780C52ACDC8E800482BA9 /* LoginController.swift */,
 				84653ECC2AA89525004E80D7 /* AppDelegate.swift */,
 				84653ECE2AA89525004E80D7 /* SceneDelegate.swift */,
 				84653ED02AA89525004E80D7 /* SplashController.swift */,
@@ -63,6 +68,7 @@
 				84653ED52AA89526004E80D7 /* Assets.xcassets */,
 				84653ED72AA89526004E80D7 /* LaunchScreen.storyboard */,
 				84653EDA2AA89526004E80D7 /* Info.plist */,
+				849780C72ACDCC7800482BA9 /* Constants.swift */,
 			);
 			path = "aniks-shop";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849780C82ACDCC7800482BA9 /* Constants.swift in Sources */,
 				84653ED12AA89525004E80D7 /* SplashController.swift in Sources */,
+				849780C62ACDC8E800482BA9 /* LoginController.swift in Sources */,
 				84653ECD2AA89525004E80D7 /* AppDelegate.swift in Sources */,
 				84653ECF2AA89525004E80D7 /* SceneDelegate.swift in Sources */,
 			);
