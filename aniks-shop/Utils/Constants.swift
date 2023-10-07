@@ -9,5 +9,6 @@ import Foundation
 
 class Constants{
     public static let loginController = "LoginController"
+    public static let splashController = "SplashController"
     
 }

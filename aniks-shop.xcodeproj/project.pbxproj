@@ -60,17 +60,73 @@
 		84653ECB2AA89525004E80D7 /* aniks-shop */ = {
 			isa = PBXGroup;
 			children = (
-				849780C52ACDC8E800482BA9 /* LoginController.swift */,
-				84653ECC2AA89525004E80D7 /* AppDelegate.swift */,
-				84653ECE2AA89525004E80D7 /* SceneDelegate.swift */,
-				84653ED02AA89525004E80D7 /* SplashController.swift */,
-				84653ED22AA89525004E80D7 /* Main.storyboard */,
+				846D48CD2AD1BF4A0067F351 /* ViewModels */,
+				846D48CC2AD1BF160067F351 /* Servieces */,
+				846D48CB2AD1BF020067F351 /* CustomViews */,
+				846D48CA2AD1BEE10067F351 /* Utils */,
+				846D48C92AD1BEB30067F351 /* StoryBoards */,
+				846D48C82AD1BE720067F351 /* ViewController */,
+				846D48C72AD1BE4D0067F351 /* AppDelegate */,
 				84653ED52AA89526004E80D7 /* Assets.xcassets */,
-				84653ED72AA89526004E80D7 /* LaunchScreen.storyboard */,
 				84653EDA2AA89526004E80D7 /* Info.plist */,
-				849780C72ACDCC7800482BA9 /* Constants.swift */,
 			);
 			path = "aniks-shop";
+			sourceTree = "<group>";
+		};
+		846D48C72AD1BE4D0067F351 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84653ECE2AA89525004E80D7 /* SceneDelegate.swift */,
+				84653ECC2AA89525004E80D7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		846D48C82AD1BE720067F351 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				849780C52ACDC8E800482BA9 /* LoginController.swift */,
+				84653ED02AA89525004E80D7 /* SplashController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		846D48C92AD1BEB30067F351 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				84653ED22AA89525004E80D7 /* Main.storyboard */,
+				84653ED72AA89526004E80D7 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		846D48CA2AD1BEE10067F351 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				849780C72ACDCC7800482BA9 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		846D48CB2AD1BF020067F351 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		846D48CC2AD1BF160067F351 /* Servieces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Servieces;
+			sourceTree = "<group>";
+		};
+		846D48CD2AD1BF4A0067F351 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
