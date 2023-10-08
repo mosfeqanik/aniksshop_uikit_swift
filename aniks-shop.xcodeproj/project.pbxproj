@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8442F56C2AD3080300FA7D21 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8442F56B2AD3080300FA7D21 /* UIViewExtension.swift */; };
 		84653ECD2AA89525004E80D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84653ECC2AA89525004E80D7 /* AppDelegate.swift */; };
 		84653ECF2AA89525004E80D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84653ECE2AA89525004E80D7 /* SceneDelegate.swift */; };
 		84653ED12AA89525004E80D7 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84653ED02AA89525004E80D7 /* SplashController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8442F56B2AD3080300FA7D21 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		84653EC92AA89525004E80D7 /* aniks-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aniks-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84653ECC2AA89525004E80D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84653ECE2AA89525004E80D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8442F56A2AD307DF00FA7D21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8442F56B2AD3080300FA7D21 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8442F56F2AD3109200FA7D21 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		84653EC02AA89525004E80D7 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +77,9 @@
 		84653ECB2AA89525004E80D7 /* aniks-shop */ = {
 			isa = PBXGroup;
 			children = (
+				8442F56F2AD3109200FA7D21 /* Services */,
+				8442F56A2AD307DF00FA7D21 /* Extensions */,
 				846D48CD2AD1BF4A0067F351 /* ViewModels */,
-				846D48CC2AD1BF160067F351 /* Servieces */,
 				846D48CB2AD1BF020067F351 /* CustomViews */,
 				846D48CA2AD1BEE10067F351 /* Utils */,
 				846D48C92AD1BEB30067F351 /* StoryBoards */,
@@ -113,13 +131,6 @@
 			children = (
 			);
 			path = CustomViews;
-			sourceTree = "<group>";
-		};
-		846D48CC2AD1BF160067F351 /* Servieces */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Servieces;
 			sourceTree = "<group>";
 		};
 		846D48CD2AD1BF4A0067F351 /* ViewModels */ = {
@@ -200,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8442F56C2AD3080300FA7D21 /* UIViewExtension.swift in Sources */,
 				849780C82ACDCC7800482BA9 /* Constants.swift in Sources */,
 				84653ED12AA89525004E80D7 /* SplashController.swift in Sources */,
 				849780C62ACDC8E800482BA9 /* LoginController.swift in Sources */,
